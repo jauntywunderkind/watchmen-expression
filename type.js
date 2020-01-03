@@ -9,7 +9,19 @@ export const
 	door: "D" // solaris door
 
 export function type( type){
+	if( !_type.value[ type]){
+		throw new Error(`Unexpected type '${ type}'`)
+	}
 	return [ "type", type]
+}
+const type_= type
+Object.defineProperties( type, {
+	name: {
+		value: {}
+	},
+	value: {
+		value: {}
+	}
 }
 Object.entries({
 	block: block
@@ -22,5 +34,7 @@ Object.entries({
 	door: door
 }).forEach( function( key, value){
 	type[ key]= value
+	type.name[ key]= value
 	type[ value]= key
+	type.value[ value]= key
 })
