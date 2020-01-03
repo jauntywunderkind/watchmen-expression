@@ -1,11 +1,13 @@
 export const
 	wholename= "wholename",
 	dict= "dict"
-	dict= {
+	scope= {
 		wholename,
 		dict
 	}
 export {
-	dict as default,
-	dict as Dict
+	scope as default,
+	scope as dict,
+	scope as Dict,
+	scope as Scope
 }
