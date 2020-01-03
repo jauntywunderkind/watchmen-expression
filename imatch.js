@@ -4,5 +4,6 @@ export function imatch( imatch, scope){
 export {
 	imatch as default,
 	imatch as expression,
-	imatch as Match
+	imatch as Imatch,
+	imatch as IMatch
 }
