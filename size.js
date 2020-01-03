@@ -1,5 +1,4 @@
-// warning: size & op are out of order? to allow defaulting to eq? worth it?
-export function size( size, op= "eq"){
+export function size( op= "eq", size){
 	return [ "size", op, size]
 }
 const {
