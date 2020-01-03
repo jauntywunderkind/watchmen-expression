@@ -1,0 +1,19 @@
+{
+	"name": "watchman-expression",
+	"version": "1.0.0",
+	"description": "",
+	"main": "watchman-expression.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.eldergods.com/watchman-expression"
+	},
+	"keywords": [],
+	"author": "jauntywunderkind",
+	"license": "MIT",
+	"module": "watchman-expression.js",
+	"esm": true,
+	"type": "module"
+}
