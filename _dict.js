@@ -1,17 +1,15 @@
-export op from "./op.js"
-export scope from "./scope.js"
-export time from "./time.js"
-export {
-	op as Op,
-	scope as Scope,
-	time as Time
-}
+export { op, Op} from "./op.js"
+export { scope, Scope} from "./scope.js"
+export { time, Time} from "./time.js"
 
 // dict of dicts
-const dicts= {
+const dict= {
 	op,
+	Op,
 	scope,
-	time
+	Scope,
+	time,
+	Time
 }
 export {
 	dict as default,
