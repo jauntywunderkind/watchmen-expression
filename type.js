@@ -14,6 +14,8 @@ export function type( type){
 	}
 	return [ "type", type]
 }
+export const expression= type
+export default type
 const type_= type
 Object.defineProperties( type, {
 	name: {
