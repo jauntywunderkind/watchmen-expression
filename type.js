@@ -8,19 +8,19 @@ export const
 	socket: "s", // "socket"
 	door: "D" // solaris door
 
-export const type= {
-	block,
-	character,
-	directory,
-	file,
-	pipe,
-	link,
-	socket,
-	door
+export function type( type){
+	return [ "type", type]
 }
-export default type
-
-export function lookup( value){
-	return lookup[ value]
-}
-Object.entries( type).forEach(( k, v)=> lookup[ v]= k)
+Object.entries({
+	block: block
+	character: character
+	directory: directory,
+	file: file,
+	pipe: pipe,
+	link: link,
+	socket: socket,
+	door: door
+}).forEach( function( key, value){
+	type[ key]= value
+	type[ value]= key
+})
