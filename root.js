@@ -1,2 +1,5 @@
 export const root= "."
-export default root
+export {
+	root as default,
+	root as Root
+}

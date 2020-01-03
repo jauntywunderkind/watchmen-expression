@@ -1,5 +1,8 @@
 export function allof( ...exprs){
 	return [ "allof", ...exprs]
 }
-export const expression= alloff
-export default allof
+export {
+	allof as default,
+	allof as Allof,
+	allof as expression
+}

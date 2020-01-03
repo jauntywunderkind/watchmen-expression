@@ -1,11 +1,17 @@
-import { root as root_} from "./root.js"
+import { Root} from "./root.js"
 
-export function dirname( dir= ".", depth){
+export function dirname( dir= Root, depth){
 	return [ "dirname", dir, ...(depth && [ depth])]
 }
-export default dirname
-export const expression= dirname
+export {
+	dirname as default,
+	dirname as expression,
+	dirname as Dirname
+}
 
 export const root(){
-	return subdir( root_)
+	return subdir( Root)
+}
+export {
+	root as Root
 }
