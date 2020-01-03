@@ -1,8 +1,8 @@
 {
 	"name": "watchman-expression",
-	"version": "1.0.0",
+	"version": "0.9.0",
 	"description": "",
-	"main": "watchman-expression.js",
+	"main": "_index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -13,7 +13,7 @@
 	"keywords": [],
 	"author": "jauntywunderkind",
 	"license": "MIT",
-	"module": "watchman-expression.js",
+	"module": "_index.js",
 	"esm": true,
 	"type": "module"
 }
