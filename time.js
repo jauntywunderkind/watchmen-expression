@@ -1,9 +1,13 @@
 export const
 	ctime= "ctime",
 	mtime= "mtime",
+	cclock= "cclock",
+	oclock= "oclock",
 	time= {
 		ctime,
-		mtime
+		mtime,
+		cclock,
+		oclock
 	}
 export {
 	time as default,
