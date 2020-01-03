@@ -10,7 +10,7 @@ export {
 }
 
 export const root(){
-	return subdir( Root)
+	return dirname( Root)
 }
 export {
 	root as Root
