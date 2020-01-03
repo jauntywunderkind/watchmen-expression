@@ -1,9 +1,13 @@
 export const
+	basename= "basename",
+	Basename= basename,
 	wholename= "wholename",
-	dict= "dict"
+	Wholename= wholename,
 	scope= {
+		basename,
+		Basename,
 		wholename,
-		dict
+		Wholename,
 	}
 export {
 	scope as default,

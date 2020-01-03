@@ -1,8 +1,12 @@
 export const
 	ctime= "ctime",
+	Ctime= ctime,
 	mtime= "mtime",
+	Mtime= mtime,
 	cclock= "cclock",
+	Cclock= cclock,
 	oclock= "oclock",
+	Oclock= oclock,
 	time= {
 		ctime,
 		mtime,
