@@ -1,8 +1,8 @@
-export function suffix( suffix){
-	if( suffix=== undefined){
+export function suffix( ...suffixes){
+	if( suffixes=== undefined){
 		throw new Error( "Expected a suffix")
 	}
-	return [ "suffix", suffix]
+	return [ "suffix", suffixes]
 }
 export {
 	suffix as default,
