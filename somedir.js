@@ -6,7 +6,8 @@ export function somedir( baseDir, depth, some= ".git"){
 	depth=( depth|| 0)+ someSize
 	return dirname(
 		join( baseDir, some),
-	/
+		depth
+	)
 }
 export {
 	somedir as default,

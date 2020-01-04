@@ -3,7 +3,7 @@ export { scope, Scope} from "./scope.js"
 export { time, Time} from "./time.js"
 
 // dict of dicts
-const dict= {
+export const dict= {
 	op,
 	Op,
 	scope,

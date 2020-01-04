@@ -1,8 +1,11 @@
-
-
 export function type( type){
-	if( !_type.value[ type]){
-		throw new Error(`Unexpected type '${ type}'`)
+	let value= type_.name[ type]
+	if( value){
+		type= value
+	}
+
+	if( !type_.value[ type]){
+		throw new Error(`Unexpected type '${type}'`);
 	}
 	return [ "type", type]
 }
@@ -11,6 +14,7 @@ export {
 	type as expression,
 	type as Type
 }
+const type_= type
 Object.defineProperties( type, {
 	name: {
 		value: {}
@@ -18,14 +22,14 @@ Object.defineProperties( type, {
 	value: {
 		value: {}
 	}
-}
+})
 
 // UNSTABLE: name choice 'dict' does not feel right
 export const dict= {
-	block= "b", // block special file
-	character= "c", // character special file
-	directory= "d",
-	file= "f", // regular file
+	block: "b", // block special file
+	character: "c", // character special file
+	directory: "d",
+	file: "f", // regular file
 	pipe: "p", // named pipe
 	link: "l", // symbolic link
 	socket: "s", // "socket"
@@ -36,7 +40,7 @@ export {
 }
 
 // build 'type' export properly
-Object.entries( dict).forEach( function( key, value){
+Object.entries( dict).forEach( function([ key, value]){
 	type[ key]= value
 	type.name[ key]= value
 	type[ value]= key
@@ -45,14 +49,14 @@ Object.entries( dict).forEach( function( key, value){
 
 // export each Type expression
 export const
-	block: type( "block"),
-	character: type( "character"),
-	directory: type( "directory"),
-	file: type( "file),
-	pipe: type( "pipe"),
-	link: type( "link"),
-	socket: type( "socket"),
-	door: type( "door")
+	block= type( "block"),
+	character= type( "character"),
+	directory= type( "directory"),
+	file= type( "file"),
+	pipe= type( "pipe"),
+	link= type( "link"),
+	socket= type( "socket"),
+	door= type( "door")
 export {
 	block as Block,
 	character as Character,

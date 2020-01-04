@@ -9,7 +9,7 @@ export {
 	dirname as Dirname
 }
 
-export const root(){
+export function root(){
 	return dirname( Root)
 }
 export {

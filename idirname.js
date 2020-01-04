@@ -10,7 +10,7 @@ export {
 	idirname as IDirname
 }
 
-export const root(){
+export function root(){
 	return idirname( Root)
 }
 export {

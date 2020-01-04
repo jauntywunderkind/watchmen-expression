@@ -1,11 +1,11 @@
 export { allof, Allof} from "./allof.js"
 export { anyof, Anyof} from "./anyof.js"
-export { dirname, Dirname} from "./dirname.js
+export { dirname, Dirname} from "./dirname.js"
 export { empty, Empty} from "./empty.js"
 export { exists, Exists} from "./exists.js"
-export { idirname, Idirname, IDirname} from "./idirname.js
-export { imatch, Imatch, IMatch} from "./imatch.js
-export { iname, Iname, IName} from "./iname.js
+export { idirname, Idirname, IDirname} from "./idirname.js"
+export { imatch, Imatch, IMatch} from "./imatch.js"
+export { iname, Iname, IName} from "./iname.js"
 export { ipcre, Ipcre, IPcre} from "./ipcre.js"
 export { match, Match} from "./match.js"
 export { name, Name} from "./name.js"

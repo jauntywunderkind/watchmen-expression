@@ -1,9 +1,3 @@
-// dict
-export { op, Op} from "./op.js"
-export { scope, Scope} from "./scope.js"
-export { time, Time} from "./time.js"
-export { dict as dict, Dict as Dict} from "./_dict.js"
-
 // helper
 export { gitdir, Gitdir} from "./gitdir.js"
 export { somedir, Somedir} from "./somedir.js"
@@ -33,8 +27,9 @@ export { scope, Scope} from "./scope.js"
 export { time, Time} from "./time.js"
 // consts
 export { root, Root} from "./root.js"
-//
+// submodules
 export { native, Native} from "./_native.js"
+export { dict as dict, Dict as Dict} from "./_dict.js"
 
 export const index= {
 	...dict,
