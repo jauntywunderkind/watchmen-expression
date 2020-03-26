@@ -2,7 +2,7 @@
 export { op, Op} from "./op.js"
 export { scope, Scope} from "./scope.js"
 export { time, Time} from "./time.js"
-export { dict, Dict} from "./_dict.js"
+export { dict as dict, Dict as Dict} from "./_dict.js"
 
 // helper
 export { gitdir, Gitdir} from "./gitdir.js"
@@ -13,12 +13,12 @@ export { helper, Helper} from "./_helper.js"
 // native
 export { allof, Allof} from "./allof.js"
 export { anyof, Anyof} from "./anyof.js"
-export { dirname, Dirname} from "./dirname.js
+export { dirname, Dirname} from "./dirname.js"
 export { empty, Empty} from "./empty.js"
 export { exists, Exists} from "./exists.js"
-export { idirname, Idirname, IDirname} from "./idirname.js
-export { imatch, Imatch, IMatch} from "./imatch.js
-export { iname, Iname, IName} from "./iname.js
+export { idirname, Idirname, IDirname} from "./idirname.js"
+export { imatch, Imatch, IMatch} from "./imatch.js"
+export { iname, Iname, IName} from "./iname.js"
 export { ipcre, Ipcre, IPcre} from "./ipcre.js"
 export { match, Match} from "./match.js"
 export { name, Name} from "./name.js"
@@ -43,7 +43,5 @@ export const index= {
 }
 export {
 	index as default,
-	index as dict,
-	index as Dict,
 	index as Index
 }
