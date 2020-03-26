@@ -1,9 +1,9 @@
 import { join, sep} from "path"
 import { dirname} from "./dirname.js"
 
-export function somedir( baseDir, depth, some= ".git"){
+export function somedir( baseDir, some= ".git", depth ){
 	const someSize= some.split( sep).length
-	depth=( depth|| 0)+ someSize
+	depth= depth!== undefined? depth: someSize- 1
 	return dirname(
 		join( baseDir, some),
 		depth
