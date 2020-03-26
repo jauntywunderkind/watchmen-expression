@@ -3,6 +3,6 @@ export function anyof( ...exprs){
 }
 export {
 	anyof as default,
-	anyof as Anyof,
+	anyof as AnyOf,
 	anyof as expression
 }

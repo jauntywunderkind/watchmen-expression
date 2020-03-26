@@ -4,6 +4,5 @@ export function ipcre( regex, scope){
 export {
 	ipcre as default,
 	ipcre as expression,
-	ipcre as Ipcre,
 	ipcre as IPcre
 }

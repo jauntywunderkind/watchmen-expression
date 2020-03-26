@@ -6,5 +6,5 @@ export const gitdir= function( baseDir, depth){
 export {
 	gitdir as default,
 	gitdir as expression,
-	gitdir as Gitdir
+	gitdir as GitDir
 }

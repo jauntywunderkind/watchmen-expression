@@ -3,6 +3,6 @@ export function allof( ...exprs){
 }
 export {
 	allof as default,
-	allof as Allof,
+	allof as AllOf,
 	allof as expression
 }

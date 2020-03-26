@@ -1,17 +1,23 @@
-export { gitdir, Gitdir} from "./gitdir.js"
-export { somedir, Somedir} from "./somedir.js"
-export { subdir, Subdir} from "./subdir.js"
+import { gitdir, GitDir} from "./gitdir.js"
+import { somedir, SomeDir} from "./somedir.js"
+import { subdir, SubDir} from "./subdir.js"
 export const helper= {
 	gitdir,
-	Gitdir,
+	GitDir,
 	somedir,
-	Somedir,
+	SomeDir,
 	subdir,
-	Subdir
+	SubDir
 }
 export {
 	helper as default,
 	helper as dict,
 	helper as Dict,
 	helper as Helper,
+	gitdir,
+	GitDir,
+	somedir,
+	SomeDir,
+	subdir,
+	SubDir
 }

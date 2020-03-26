@@ -12,5 +12,5 @@ export function somedir( baseDir, depth, some= ".git"){
 export {
 	somedir as default,
 	somedir as expression,
-	somedir as Somedir
+	somedir as SomeDir
 }

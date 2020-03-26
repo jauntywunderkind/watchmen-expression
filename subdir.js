@@ -12,5 +12,5 @@ export function subdir( baseDir, depth){
 export {
 	subdir as default,
 	subdir as expression,
-	subdir as Subdir
+	subdir as SubDir
 }

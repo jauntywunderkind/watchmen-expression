@@ -6,7 +6,7 @@ export function dirname( dir= Root, depth){
 export {
 	dirname as default,
 	dirname as expression,
-	dirname as Dirname
+	dirname as DirName
 }
 
 export function root(){

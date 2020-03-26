@@ -6,8 +6,7 @@ export function idirname( dir= Root, depth){
 export {
 	idirname as default,
 	idirname as expression,
-	idirname as Idirname,
-	idirname as IDirname
+	idirname as IDirName
 }
 
 export function root(){
